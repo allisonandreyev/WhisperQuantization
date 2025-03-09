@@ -12,20 +12,20 @@ This repository provides a simple Python script to download and process the **Li
 
 ## Customization
 
-### Quantization method:<br>
+#### Quantization method:<br>
 `!./build/bin/quantize models/ggml-base.en.bin models/ggml-base.en-q6_0.bin q6_0`<br>
 `!./build/bin/whisper-cli -m models/ggml-base.en-q6_0.bin ./samples/gb0.wav `<br>
 
 The "q6_0" string in the code should be modified to "q5_0" for INT5 quantization, "q4_0" for INT4 quantization and etc.
 
-### File 
+#### File 
 `max_files` can be modified to adjust # files processed during model testing
 File paths are meant for Google Colab setup; should be modified if needed
 
-### Dataset
+#### Dataset
 Modify the link parameter in the `load_dataset()` method call
 
-# arXiv Publication
+### arXiv Publication
 
 Link: 
 
