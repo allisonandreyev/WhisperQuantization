@@ -36,6 +36,6 @@ If you use this program in your research please cite:
       eprint={2503.09905},
       archivePrefix={arXiv},
       primaryClass={cs.SD},
-      url={https://arxiv.org/abs/2503.09905](https://doi.org/10.48550/arXiv.2503.09905}, 
+      url={https://doi.org/10.48550/arXiv.2503.09905}, 
 }
 ```
