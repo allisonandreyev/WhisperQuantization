@@ -18,11 +18,11 @@ This repository provides a simple Python script to download and process the **Li
 
 The "q6_0" string in the code should be modified to "q5_0" for INT5 quantization, "q4_0" for INT4 quantization and etc.
 
-#### File 
+#### File: 
 `max_files` can be modified to adjust # files processed during model testing
 File paths are meant for Google Colab setup; should be modified if needed
 
-#### Dataset
+#### Dataset:
 Modify the link parameter in the `load_dataset()` method call
 
 ### Citation
